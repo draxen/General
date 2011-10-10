@@ -35,6 +35,7 @@ public class General extends JavaPlugin {
 	
 	@Override
 	public void onEnable() {
+		// This is a test
 		boolean alreadyLoaded = false;
 		if(plugin != null) {
 			General.logger.warn(LanguageText.LOG_TWICE.value());
